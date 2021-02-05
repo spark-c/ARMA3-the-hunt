@@ -1,0 +1,5 @@
+-Opfor respawn issue
+-Consider AI squadmate at goodie stash, or additional respawn ticket.
+
+
+

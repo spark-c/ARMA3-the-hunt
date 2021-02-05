@@ -1,0 +1,66 @@
+respawnTemplates[] = { "Tickets", "Counter" };
+respawn = "BASE"
+respawnDelay = 300;
+RespawnOnStart = -1;
+
+class CfgNotifications
+{
+	class Default
+	{
+		title = "";
+		iconPicture = "";
+		iconText = "";
+		description = "";
+		color[] = {1,1,1,1};
+		duration = 5;
+		priority = 0;
+		difficulty[] = {};
+	};	
+	class Information
+	{
+		title="Update";
+		iconPicture="\a3\ui_f\data\map\Markers\HandDrawn\destroy_ca.paa";
+		description="%1";
+		color[]= {.5,.5,.5,1};
+	};
+};
+
+class CfgDebriefing
+{  
+	class OpforWinByObj
+	{
+		title = "OPFOR WIN";
+		subtitle = "Objective";
+		description = "Opfor destroyed all objectives before the time ran out.";
+		pictureBackground = "";
+		picture = "o_inf";
+		pictureColor[] = { 0.6, 0.1, 0.0, 1 };
+	};
+		class BluforWinByObj
+	{
+		title = "BLUFOR WIN";
+		subtitle = "Objective";
+		description = "Blufor successfully defended the objectives until the time ran out.";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = { 0.0, 0.3, 0.6, 1 };
+	};
+		class OpforWinByElim
+	{
+		title = "OPFOR WIN";
+		subtitle = "Elimination";
+		description = "Opfor eliminated all enemy forces.";
+		pictureBackground = "";
+		picture = "o_inf";
+		pictureColor[] = { 0.6, 0.1, 0.0, 1 };
+	};
+		class BluforWinByElim
+	{
+		title = "BLUFOR WIN";
+		subtitle = "Elimination";
+		description = "Blufor eliminated all enemy forces.";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = { 0.0, 0.3, 0.6, 1 };
+	};
+};
