@@ -1,8 +1,101 @@
-respawnTemplates[] = { "Tickets", "Counter" };
-respawn = "BASE"
-respawnDelay = 300;
-RespawnOnStart = -1;
+// respawnOnStart = 0;
 
+
+// ROLES
+class CfgRoles
+{
+	class BluSMG
+	{
+		displayName = BluforSMG;
+		icon = "a3\Ui_f\data\GUI\Cfg\RespawnRoles\assault_ca.paa";
+	};
+	
+	class BluRifle
+	{
+		displayName = BluforRifle;
+		icon = "a3\Ui_f\data\GUI\Cfg\RespawnRoles\assault_ca.paa";
+	};
+	
+	class OpShort
+	{
+		displayName = OpforSR;
+		icon = "a3\Ui_f\data\GUI\Cfg\RespawnRoles\assault_ca.paa";
+	};
+	
+	class OpLong
+	{
+		displayName = OpforLR;
+		icon = "a3\Ui_f\data\GUI\Cfg\RespawnRoles\assault_ca.paa";
+	};
+};
+
+
+// LOADOUTS
+class CfgRespawnInventory
+{
+	class BluforRifle
+	{
+	  displayName = "Rifle";
+	  icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
+	  role = "BluRifle";
+	  show = "true";
+	  uniformClass = "U_B_CombatUniform_mcam";
+	  backpack = "";
+	  weapons[] = {"arifle_Katiba_C_F", "hgun_P07_F", "Binocular", "Throw", "Put"};
+	  magazines[] = {"SmokeShell", "SmokeShell", "HandGrenade", "HandGrenade", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green"};
+	  items[] = {"ACE_DefusalKit", "ACE_adenosine", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_EarPlugs", "ACE_epinephrine", "ACE_epinephrine", "ACE_morphine", "ACE_salineIV_500", "ACE_salineIV_500", "ACE_tourniquet", "ACE_tourniquet", "ACE_tourniquet", "ACE_tourniquet"};
+	  linkedItems[] = {"V_PlateCarrier1_rgr", "H_HelmetB", "G_Bandanna_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "", "acc_pointer_IR", "optic_Aco", "", "", "", "", ""};
+	};
+
+	class BluforSMG
+	{
+	  displayName = "SMG";
+	  icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
+	  role = "BluSMG";
+	  show = "true";
+	  uniformClass = "U_B_CombatUniform_mcam";
+	  backpack = "";
+	  weapons[] = {"hgun_PDW2000_F", "hgun_Pistol_heavy_02_F", "Binocular", "Throw", "Put"};
+	  magazines[] = {"SmokeShell", "SmokeShell", "HandGrenade", "HandGrenade", "6Rnd_45ACP_Cylinder", "6Rnd_45ACP_Cylinder", "6Rnd_45ACP_Cylinder", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"};
+	  items[] = {"ACE_DefusalKit", "ACE_adenosine", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_EarPlugs", "ACE_epinephrine", "ACE_epinephrine", "ACE_morphine", "ACE_salineIV_500", "ACE_salineIV_500", "ACE_tourniquet", "ACE_tourniquet", "ACE_tourniquet", "ACE_tourniquet", "FirstAidKit"};
+	  linkedItems[] = {"V_PlateCarrier1_rgr", "H_HelmetB", "", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGoggles", "", "", "optic_Aco", "", "", "", "", ""};
+	};
+
+	class OpforLongRifle
+	{
+	  displayName = "LongRifle";
+	  icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
+	  role = "OpLong";
+	  show = "true";
+	  uniformClass = "U_O_CombatUniform_ocamo";
+	  backpack = "B_AssaultPack_mcamo";
+	  weapons[] = {"srifle_LRR_F", "hgun_Pistol_heavy_01_F", "Rangefinder", "Throw", "Put"};
+	  magazines[] = {"HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag"};
+	  items[] = {"ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_salineIV_500", "ACE_salineIV_500", "ACE_tourniquet", "ACE_tourniquet", "ACE_tourniquet", "ACE_tourniquet", "ACE_epinephrine", "ACE_epinephrine", "ACE_morphine", "ACE_EarPlugs", "ACE_adenosine"};
+	  linkedItems[] = {"V_TacVest_khk", "H_HelmetB_camo", "G_Bandanna_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "", "", "optic_DMS", "", "", "", "", ""};
+	};
+
+	class OpforShortRifle
+	{
+	  displayName = "ShortRifle";
+	  icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
+	  role = "OpShort";
+	  show = "true";
+	  uniformClass = "U_O_CombatUniform_ocamo";
+	  backpack = "B_AssaultPack_mcamo";
+	  weapons[] = {"srifle_DMR_01_F", "hgun_Pistol_heavy_01_F", "Rangefinder", "Throw", "Put"};
+	  magazines[] = {"HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "10Rnd_762x54_Mag", "10Rnd_762x54_Mag"};
+	  items[] = {"ACE_adenosine", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_fieldDressing", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_EarPlugs", "ACE_epinephrine", "ACE_epinephrine", "ACE_morphine", "ACE_salineIV_500", "ACE_salineIV_500", "ACE_tourniquet", "ACE_tourniquet", "ACE_tourniquet", "ACE_tourniquet"};
+	  linkedItems[] = {"V_TacVest_khk", "H_HelmetB_grass", "", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "", "", "optic_DMS", "", "", "", "", ""};
+	};
+	//Biki: https://community.bistudio.com/wiki/Arma_3_Respawn#Loadouts_and_Roles
+};
+
+
+
+
+
+// NOTIFICATIONS AND WIN CONDITIONS
 class CfgNotifications
 {
 	class Default
@@ -24,6 +117,7 @@ class CfgNotifications
 		color[]= {.5,.5,.5,1};
 	};
 };
+
 
 class CfgDebriefing
 {  
