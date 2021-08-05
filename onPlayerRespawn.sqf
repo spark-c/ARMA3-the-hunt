@@ -1,2 +1,3 @@
-["Terminate"] call BIS_fnc_EGSpectator; //Leaves spectator mode
 
+
+["Terminate"] call BIS_fnc_EGSpectator; //Leaves spectator mode
