@@ -5,6 +5,3 @@
 [west,["BluforSMG",-1,-1]] call BIS_fnc_addRespawnInventory;
 [east,["OpforShortRifle",-1,-1]] call BIS_fnc_addRespawnInventory;
 [east,["OpforLongRifle",-1,-1]] call BIS_fnc_addRespawnInventory;
-
-isFirstRun = true; // for onPlayerKilled.sqf
-publicVariable "isFirstRun";
