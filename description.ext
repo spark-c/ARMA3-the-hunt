@@ -1,4 +1,5 @@
-respawnDelay = 15;
+respawnDelay = 10;
+respawnOnStart = 0;
 
 
 // ROLES
