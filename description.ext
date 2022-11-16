@@ -116,14 +116,16 @@ class CfgNotifications
 		iconPicture="\a3\ui_f\data\map\Markers\HandDrawn\destroy_ca.paa";
 		description="%1";
 		color[]= {.5,.5,.5,1};
+		duration = 5;
 	};
-//	class Message
-//	{
-//		title = "NOTICE";
-//		iconPicture = "%2";
-//		description = "%1";
-//		color[] = {1,1,1,1};
-//	};
+	class Message
+	{
+		title = "NOTICE";
+		iconPicture = "%2";
+		description = "%1";
+		color[] = {1,1,1,1};
+		duration = 7;
+	};
 };
 
 
