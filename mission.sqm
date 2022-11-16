@@ -733,16 +733,15 @@ class Mission
 	{
 		briefingName="The Hunt - Malden";
 		resistanceWest=0;
-		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
+		startWeather=0.62283969;
 		startWind=0.1;
 		startWaves=0.1;
-		forecastWeather=0.30000001;
+		forecastWeather=0.5042358;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
-		wavesForced=1;
-		windForced=1;
+		rainForced=1;
+		lightningsForced=1;
 		year=2035;
 		month=6;
 		day=24;
@@ -6068,10 +6067,9 @@ class Mission
 			class Attributes
 			{
 				name="blufor_win_time";
+				condition="dayTime > 12.00";
 				sizeA=2200;
 				sizeB=3000;
-				timeout[]={1800,1800,1800};
-				interuptable=1;
 				activationBy="WEST";
 				isRectangle=1;
 			};
