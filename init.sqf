@@ -11,7 +11,7 @@ if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
 
 // TIME LIMIT PARAM
 if (isServer) then {
-	_timeLimit = ["TimeLimit", 1] call BIS_fnc_getParamValue;
+	_timeLimit = ["TimeLimit", 30] call BIS_fnc_getParamValue;
 	
 	// have to use SWITCH because we can't have decimal default values...
 	switch (_timeLimit) do {

@@ -181,4 +181,20 @@ class Params
 		//values[] = { 0.01, 0.5, 0.75, 1, 1.25 };
 		//default = .5;
 	};
+	
+	class BluforRespawnTime
+	{
+		title = "Blufor Respawn Delay";
+		texts[] = { "1m", "3m", "5m", "7m", "9m" };
+		values[] = { 60, 180, 300, 420, 540 };
+		default = 300;
+	};
+	
+	class OpforRespawnTime
+	{
+		title = "Opfor Respawn Delay";
+		texts[] = { "1m", "2m", "3m", "4m", "5m" };
+		values[] = { 60, 120, 180, 240, 300 };
+		default = 120;
+	};
 };
