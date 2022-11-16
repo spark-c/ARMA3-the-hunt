@@ -197,4 +197,20 @@ class Params
 		values[] = { 60, 120, 180, 240, 300 };
 		default = 120;
 	};
+	
+	class BluforTickets
+	{
+		title = "Blufor Tickets";
+		texts[] = { "0", "1", "2", "3", "4", "5" };
+		values[] = { 0, 1, 2, 3, 4, 5 };
+		default = 2;
+	};
+	
+	class OpforTickets
+	{
+		title = "Opfor Tickets";
+		texts[] = { "0", "1", "2", "3", "4", "5" };
+		values[] = { 0, 1, 2, 3, 4, 5 };
+		default = 1;
+	};
 };

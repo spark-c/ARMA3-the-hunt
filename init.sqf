@@ -1,8 +1,13 @@
 // Wait until player is initialized
 if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
 
-[west, 2] call BIS_fnc_respawnTickets;
-[east, 1] call BIS_fnc_respawnTickets;
+if (isServer) then {
+	_bluTix = ["BluforTickets", 2] call BIS_fnc_getParamValue;
+	_redTix = ["OpforTickets", 1] call BIS_fnc_getParamValue;
+
+	[west, _bluTix] call BIS_fnc_respawnTickets;
+	[east, _redTix] call BIS_fnc_respawnTickets;
+};
 
 [west,["BluforRifle",-1,-1]] call BIS_fnc_addRespawnInventory;
 [west,["BluforSMG",-1,-1]] call BIS_fnc_addRespawnInventory;
