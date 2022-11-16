@@ -1,5 +1,5 @@
 respawnDelay = 10;
-respawnOnStart = 0;
+respawnOnStart = 1;
 
 
 // ROLES
@@ -117,6 +117,13 @@ class CfgNotifications
 		description="%1";
 		color[]= {.5,.5,.5,1};
 	};
+//	class Message
+//	{
+//		title = "NOTICE";
+//		iconPicture = "%2";
+//		description = "%1";
+//		color[] = {1,1,1,1};
+//	};
 };
 
 
