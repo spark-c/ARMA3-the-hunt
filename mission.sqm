@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1537;
+	toggles=513;
 	mods[]=
 	{
 		"3denEnhanced"
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8497.126,13.515536,3819.2556};
-		dir[]={-0.88805753,-0.37766853,0.26216459};
-		up[]={-0.36221716,0.92594028,0.10693072};
-		aside[]={0.2831336,7.2959665e-009,0.95908678};
+		pos[]={9737.2012,47.490871,3901.5598};
+		dir[]={-0.52295476,-0.49393862,0.69465309};
+		up[]={-0.29707706,0.86949676,0.39461446};
+		aside[]={0.79891396,-1.4901161e-08,0.60144532};
 	};
 };
 binarizationWanted=0;
@@ -34,7 +34,6 @@ addons[]=
 	"A3_Soft_F_Quadbike_01",
 	"A3_Soft_F_Gamma_Van_01",
 	"A3_Soft_F_Bootcamp_Van_01",
-	"ace_refuel",
 	"A3_Structures_F_Argo_Military_Fortifications",
 	"A3_Weapons_F_Ammoboxes",
 	"ace_cargo",
@@ -57,7 +56,6 @@ addons[]=
 	"ace_smallarms",
 	"ace_optics",
 	"A3_Weapons_F_Items",
-	"ace_medical_engine",
 	"ace_medical_treatment",
 	"A3_Characters_F_Mark",
 	"A3_Modules_F_Curator_Intel",
@@ -68,7 +66,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=25;
 		class Item0
 		{
 			className="A3_Boat_F";
@@ -99,159 +97,145 @@ class AddonsMetaData
 		};
 		class Item4
 		{
-			className="ace_refuel";
-			name="ACE3 - Refuel";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item5
-		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item5
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item6
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item8
+		class Item7
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item8
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item9
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item10
 		{
 			className="A3_Air_F";
 			name="Arma 3 Alpha - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item11
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item13
+		class Item12
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item14
+		class Item13
 		{
 			className="ace_scopes";
 			name="ACE3 - Scopes";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item15
+		class Item14
 		{
 			className="ace_ballistics";
 			name="ACE3 - Ballistics";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item16
+		class Item15
 		{
 			className="ace_laserpointer";
 			name="ACE3 - Laser Pointer";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item17
+		class Item16
 		{
 			className="A3_Weapons_F_Exp";
 			name="Arma 3 Apex - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item17
 		{
 			className="cba_jam";
 			name="Community Base Addons - Joint Ammo Magazines";
 			author="CBA Team";
 			url="https://www.github.com/CBATeam/CBA_A3";
 		};
-		class Item19
+		class Item18
 		{
 			className="ace_smallarms";
 			name="ACE3 - Small Arms";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item20
+		class Item19
 		{
 			className="ace_optics";
 			name="ACE3 - Optics";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item21
-		{
-			className="ace_medical_engine";
-			name="ACE3 - Medical Engine";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item22
+		class Item20
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item23
+		class Item21
 		{
 			className="A3_Characters_F_Mark";
 			name="Arma 3 Marksmen - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item22
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item23
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item26
+		class Item24
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
@@ -333,7 +317,7 @@ class CustomAttributes
 		class Attribute1
 		{
 			property="ENH_dynamicSkill";
-			expression="if (!is3DEN && _value # 0 && isServer) then      {        _value params        [          '_enable',          '_skillMinBLUFOR',          '_skillAimMinBLUFOR',          '_skillMaxBLUFOR',          '_skillAimMaxBlUFOR',          '_skillMinOPFOR',          '_skillAimMinOPFOR',          '_skillMaxOPFOR',          '_skillAimMaxOPFOR',          '_skillMinIndependent',          '_skillAimMinIndependent',          '_skillMaxIndependent',          '_skillAimMaxIndependent'        ];        [          true,          [            [WEST, _skillMinBLUFOR, _skillAimMinBLUFOR, _skillMaxBLUFOR, _skillAimMaxBlUFOR],            [EAST, _skillMinOPFOR, _skillAimMinOPFOR, _skillMaxOPFOR, _skillAimMaxOPFOR],            [INDEPENDENT, _skillMinIndependent, _skillAimMinIndependent, _skillMaxIndependent, _skillAimMaxIndependent]          ]        ] call BIS_fnc_EXP_camp_dynamicAISkill;      }";
+			expression="if (!is3DEN && _value # 0 && isServer) then            {                _value params                [                    '_enable',                    '_skillMinBLUFOR',                    '_skillAimMinBLUFOR',                    '_skillMaxBLUFOR',                    '_skillAimMaxBlUFOR',                    '_skillMinOPFOR',                    '_skillAimMinOPFOR',                    '_skillMaxOPFOR',                    '_skillAimMaxOPFOR',                    '_skillMinIndependent',                    '_skillAimMinIndependent',                    '_skillMaxIndependent',                    '_skillAimMaxIndependent'                ];                [                    true,                    [                        [WEST, _skillMinBLUFOR, _skillAimMinBLUFOR, _skillMaxBLUFOR, _skillAimMaxBlUFOR],                        [EAST, _skillMinOPFOR, _skillAimMinOPFOR, _skillMaxOPFOR, _skillAimMaxOPFOR],                        [INDEPENDENT, _skillMinIndependent, _skillAimMinIndependent, _skillMaxIndependent, _skillAimMaxIndependent]                    ]                ] call BIS_fnc_EXP_camp_dynamicAISkill;            }";
 			class Value
 			{
 				class data
@@ -505,7 +489,7 @@ class CustomAttributes
 		class Attribute6
 		{
 			property="ENH_saveLoadout";
-			expression="if (!isMultiplayer || !_value || is3DEN || !hasInterface) exitWith {};    0 spawn    {      waitUntil {sleep 1; !isNull player};      player setVariable ['ENH_savedLoadout', getUnitloadout player];      player addMPEventHandler ['MPRespawn',      {        params ['_unit'];        private _loadout = _unit getVariable ['ENH_savedLoadout', []];        if (_loadout isNotEqualTo []) then {_unit setUnitLoadout _loadout};      }];    };";
+			expression="if (!isMultiplayer || !_value || is3DEN || !hasInterface) exitWith {};        0 spawn        {            waitUntil {sleep 1; !isNull player};            player setVariable ['ENH_savedLoadout', getUnitloadout player];            player addMPEventHandler ['MPRespawn',            {                params ['_unit'];                private _loadout = _unit getVariable ['ENH_savedLoadout', []];                if (_loadout isNotEqualTo []) then {_unit setUnitLoadout _loadout};            }];        };";
 			class Value
 			{
 				class data
@@ -575,7 +559,7 @@ class CustomAttributes
 		class Attribute1
 		{
 			property="ENH_mapIndicators";
-			expression="if (!is3DEN && !(_value isEqualTo [false, false, false, false]) && hasInterface) then {disableMapIndicators _value}";
+			expression="if (!is3DEN && (_value isNotEqualTo [false, false, false, false]) && hasInterface) then {disableMapIndicators _value}";
 			class Value
 			{
 				class data
@@ -623,7 +607,7 @@ class CustomAttributes
 		class Attribute2
 		{
 			property="ENH_SPR";
-			expression="if (!is3DEN && _value # 0 > 0 && !isMultiplayer) then      {        ENH_SPR_Ruleset = _value param [0, 0];        ENH_SPR_Delay = _value param [1, 20];        ENH_SPR_CanDie = _value param [2, false];        ENH_SPR_RestoreLoadout = _value param [3, false];        ENH_SPR_OnRespawnCode = compile (_value param [4, '']);        ENH_SPR_Positions =        [          allMapMarkers select {'respawn_east' in toLower _x} apply {getMarkerPos _x},          allMapMarkers select {'respawn_west' in toLower _x} apply {getMarkerPos _x},          allMapMarkers select {'respawn_guerilla' in toLower _x} apply {getMarkerPos _x},          allMapMarkers select {'respawn_civilian' in toLower _x} apply {getMarkerPos _x}        ];        {          _x setVariable ['ENH_SPR_OriginalSide', side group _x];          _x setVariable ['ENH_SPR_OriginalLoadout', getUnitLoadout _x];          _x addEventHandler ['handleDamage',          {            params ['_unit', '', '_damage', '', '', '_index'];            if (!alive _unit || lifeState _unit isEqualTo 'INCAPACITATED') exitWith {0};            if (_unit getVariable ['ENH_SPR_Tickets', 0] == 0) then            {              _unit removeEventHandler ['handleDamage', _thisEventHandler];              _damage;            };            if (ENH_SPR_CanDie && _index in [1, 2] && _damage >= 1) exitWith            {              _unit removeEventHandler ['handleDamage', _thisEventHandler];              1;            };            if (_index < 8 && (_damage min 0.95) == 0.95) then            {              setAccTime 1;              _unit allowDamage false;              _unit setCaptive true;              _unit setUnconscious true;              _unit setVariable ['ENH_SPR_Tickets', (_unit getVariable ['ENH_SPR_Tickets', 0]) - 1];              if (isPlayer _unit) then {enableTeamSwitch false} else {removeSwitchableUnit _unit};              moveOut _unit;              _unit spawn ENH_fnc_SPR_respawnTimer;            };            _damage min 0.95;          }];        } forEach (allUnits select {_x getVariable ['ENH_SPR_Tickets', 0] > 0});                ENH_fnc_SPR_respawn =        {          scriptName 'ENH_Attribute_SPR_Respawn';          params ['_unit'];          if (isPlayer _unit) then {enableTeamSwitch true} else {addSwitchableUnit _unit};          if (ENH_SPR_RestoreLoadout) then {_unit setUnitLoadout (_unit getVariable 'ENH_SPR_OriginalLoadout')};          private _sideID = (_unit getVariable 'ENH_SPR_OriginalSide') call BIS_fnc_sideID;          private _positions = ENH_SPR_Positions select _sideID;          if (_positions isNotEqualTo []) then          {            switch (ENH_SPR_Ruleset) do            {              case 3:              {                _unit setPos (([_positions, [], {_unit distance _x}, 'ASCEND'] call BIS_fnc_sortBy) select 0);              };              case 2:              {                _unit setPos selectRandom _positions;              };            };          };          _unit setUnconscious false;          _unit allowDamage true;          _unit setDamage 0;          _unit switchMove '';          _unit call ENH_SPR_OnRespawnCode;          _unit spawn          {            sleep 8;            _this setCaptive false;          };        };                ENH_fnc_SPR_respawnTimer =        {          scriptName 'ENH_Attribute_SPR_RespawnTimer';          params ['_unit'];          private _respawnTime = time + ENH_SPR_Delay;          if (isPlayer _unit) then          {            private _ctrlRespawnTimer = (call BIS_fnc_displayMission) ctrlCreate ['RscStructuredText',-1];            _ctrlRespawnTimer ctrlSetPosition [0.25, 0, 0.5, 0.06];            _ctrlRespawnTimer ctrlSetBackgroundColor [0, 0, 0, 0.1];            _ctrlRespawnTimer ctrlCommit 0;            ENH_SPR_OriginalVolume = [soundVolume, musicVolume, radioVolume, speechVolume, environmentVolume];            0 cutText ['', 'BLACK OUT', 0.3];            0.3 fadeSound 0;            0.3 fadeMusic 0;            0.3 fadeRadio 0;            0.3 fadeSpeech 0;            0.3 fadeEnvironment 0;            showChat false;            while {time < _respawnTime} do            {              _ctrlRespawnTimer ctrlSetStructuredText parseText format ['<t size=''1.25'' color=''#218a36'' align=''center''>%1</t>', [(_respawnTime - time), 'HH:MM'] call BIS_fnc_timeToString];              sleep 0.1;            };            ctrlDelete _ctrlRespawnTimer;            0 cutText ['', 'BLACK IN', 8];            8 fadeSound (ENH_SPR_OriginalVolume # 0);            8 fadeMusic (ENH_SPR_OriginalVolume # 1);            8 fadeRadio (ENH_SPR_OriginalVolume # 2);            8 fadeSpeech (ENH_SPR_OriginalVolume # 3);            8 fadeEnvironment (ENH_SPR_OriginalVolume # 4);            showChat true;            [              ['Respawned'],              [format ['GRID: %1', mapGridPosition _unit]],              [format ['Tickets left: %1', _unit getVariable 'ENH_SPR_Tickets']]            ] spawn BIS_fnc_EXP_camp_SITREP;          }          else          {            private _respawnEH = -1;            if ((side player getFriend (_unit getVariable 'ENH_SPR_OriginalSide')) >= 0.6) then            {              _respawnEH = addMissionEventHandler              [                'draw3D',                {                  drawIcon3D ['\a3\Modules_f\data\portraitRespawn_ca.paa', [0.13, 0.54, 0.21, 0.8], ASLToAGL ((_thisArgs # 0) modelToWorldVisualWorld [0, 0, 1]), 1, 1, 0, str round ((_thisArgs # 1) - time), 2];                },                [_unit, _respawnTime]              ];            };            sleep ENH_SPR_Delay;            removeMissionEventHandler ['draw3D', _respawnEH];            [str _unit, 'onEachFrame'] call BIS_fnc_removeStackedEventHandler;          };          _unit call ENH_fnc_SPR_respawn;        };      }";
+			expression="if (!is3DEN && _value # 0 > 0 && !isMultiplayer) then            {                ENH_SPR_Ruleset = _value param [0, 0];                ENH_SPR_Delay = _value param [1, 20];                ENH_SPR_CanDie = _value param [2, false];                ENH_SPR_RestoreLoadout = _value param [3, false];                ENH_SPR_OnRespawnCode = compile (_value param [4, '']);                ENH_SPR_Positions =                [                    allMapMarkers select {'respawn_east' in toLower _x} apply {getMarkerPos _x},                    allMapMarkers select {'respawn_west' in toLower _x} apply {getMarkerPos _x},                    allMapMarkers select {'respawn_guerilla' in toLower _x} apply {getMarkerPos _x},                    allMapMarkers select {'respawn_civilian' in toLower _x} apply {getMarkerPos _x}                ];                {                    _x setVariable ['ENH_SPR_OriginalSide', side group _x];                    _x setVariable ['ENH_SPR_OriginalLoadout', getUnitLoadout _x];                    _x addEventHandler ['handleDamage',                    {                        params ['_unit', '', '_damage', '', '', '_index'];                        if (!alive _unit || lifeState _unit isEqualTo 'INCAPACITATED') exitWith {0};                        if (_unit getVariable ['ENH_SPR_Tickets', 0] == 0) then                        {                            _unit removeEventHandler ['handleDamage', _thisEventHandler];                            _damage;                        };                        if (ENH_SPR_CanDie && _index in [1, 2] && _damage >= 1) exitWith                        {                            _unit removeEventHandler ['handleDamage', _thisEventHandler];                            1;                        };                        if (_index < 8 && (_damage min 0.95) == 0.95) then                        {                            setAccTime 1;                            _unit allowDamage false;                            _unit setCaptive true;                            _unit setUnconscious true;                            _unit setVariable ['ENH_SPR_Tickets', (_unit getVariable ['ENH_SPR_Tickets', 0]) - 1];                            if (isPlayer _unit) then {enableTeamSwitch false} else {removeSwitchableUnit _unit};                            moveOut _unit;                            _unit spawn ENH_fnc_SPR_respawnTimer;                        };                        _damage min 0.95;                    }];                } forEach (allUnits select {_x getVariable ['ENH_SPR_Tickets', 0] > 0});                                ENH_fnc_SPR_respawn =                {                    scriptName 'ENH_Attribute_SPR_Respawn';                    params ['_unit'];                    if (isPlayer _unit) then {enableTeamSwitch true} else {addSwitchableUnit _unit};                    if (ENH_SPR_RestoreLoadout) then {_unit setUnitLoadout (_unit getVariable 'ENH_SPR_OriginalLoadout')};                    private _sideID = (_unit getVariable 'ENH_SPR_OriginalSide') call BIS_fnc_sideID;                    private _positions = ENH_SPR_Positions select _sideID;                    if (_positions isNotEqualTo []) then                    {                        switch (ENH_SPR_Ruleset) do                        {                            case 3:                            {                                _unit setPos (([_positions, [], {_unit distance _x}, 'ASCEND'] call BIS_fnc_sortBy) select 0);                            };                            case 2:                            {                                _unit setPos selectRandom _positions;                            };                        };                    };                    _unit setUnconscious false;                    _unit allowDamage true;                    _unit setDamage 0;                    _unit switchMove '';                    _unit call ENH_SPR_OnRespawnCode;                    _unit spawn                    {                        sleep 8;                        _this setCaptive false;                    };                };                                ENH_fnc_SPR_respawnTimer =                {                    scriptName 'ENH_Attribute_SPR_RespawnTimer';                    params ['_unit'];                    private _respawnTime = time + ENH_SPR_Delay;                    if (isPlayer _unit) then                    {                        private _ctrlRespawnTimer = (call BIS_fnc_displayMission) ctrlCreate ['RscStructuredText',-1];                        _ctrlRespawnTimer ctrlSetPosition [0.25, 0, 0.5, 0.06];                        _ctrlRespawnTimer ctrlSetBackgroundColor [0, 0, 0, 0.1];                        _ctrlRespawnTimer ctrlCommit 0;                        ENH_SPR_OriginalVolume = [soundVolume, musicVolume, radioVolume, speechVolume, environmentVolume];                        0 cutText ['', 'BLACK OUT', 0.3];                        0.3 fadeSound 0;                        0.3 fadeMusic 0;                        0.3 fadeRadio 0;                        0.3 fadeSpeech 0;                        0.3 fadeEnvironment 0;                        showChat false;                        while {time < _respawnTime} do                        {                            _ctrlRespawnTimer ctrlSetStructuredText parseText format ['<t size=''1.25'' color=''#218a36'' align=''center''>%1</t>', [(_respawnTime - time), 'HH:MM'] call BIS_fnc_timeToString];                            sleep 0.1;                        };                        ctrlDelete _ctrlRespawnTimer;                        0 cutText ['', 'BLACK IN', 8];                        8 fadeSound (ENH_SPR_OriginalVolume # 0);                        8 fadeMusic (ENH_SPR_OriginalVolume # 1);                        8 fadeRadio (ENH_SPR_OriginalVolume # 2);                        8 fadeSpeech (ENH_SPR_OriginalVolume # 3);                        8 fadeEnvironment (ENH_SPR_OriginalVolume # 4);                        showChat true;                        [                            ['Respawned'],                            [format ['GRID: %1', mapGridPosition _unit]],                            [format ['Tickets left: %1', _unit getVariable 'ENH_SPR_Tickets']]                        ] spawn BIS_fnc_EXP_camp_SITREP;                    }                    else                    {                        private _respawnEH = -1;                        if ((side player getFriend (_unit getVariable 'ENH_SPR_OriginalSide')) >= 0.6) then                        {                            _respawnEH = addMissionEventHandler                            [                                'draw3D',                                {                                    drawIcon3D ['\a3\Modules_f\data\portraitRespawn_ca.paa', [0.13, 0.54, 0.21, 0.8], ASLToAGL ((_thisArgs # 0) modelToWorldVisualWorld [0, 0, 1]), 1, 1, 0, str round ((_thisArgs # 1) - time), 2];                                },                                [_unit, _respawnTime]                            ];                        };                        sleep ENH_SPR_Delay;                        removeMissionEventHandler ['draw3D', _respawnEH];                        [str _unit, 'onEachFrame'] call BIS_fnc_removeStackedEventHandler;                    };                    _unit call ENH_fnc_SPR_respawn;                };            }";
 			class Value
 			{
 				class data
@@ -854,7 +838,7 @@ class Mission
 			};
 			id=41;
 			type="B_Quadbike_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=2.3841858e-07;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -887,7 +871,7 @@ class Mission
 			};
 			id=43;
 			type="B_Quadbike_01_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=2.3841858e-07;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -920,7 +904,7 @@ class Mission
 			};
 			id=45;
 			type="B_Quadbike_01_F";
-			atlOffset=-2.3841858e-007;
+			atlOffset=-2.3841858e-07;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -953,7 +937,7 @@ class Mission
 			};
 			id=47;
 			type="B_Quadbike_01_F";
-			atlOffset=7.1525574e-007;
+			atlOffset=7.1525574e-07;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1213,7 +1197,7 @@ class Mission
 			};
 			id=76;
 			type="C_supplyCrate_F";
-			atlOffset=-7.6293945e-006;
+			atlOffset=-7.6293945e-06;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1337,7 +1321,7 @@ class Mission
 					};
 					id=285;
 					type="B_Soldier_F";
-					atlOffset=4.7683716e-007;
+					atlOffset=4.7683716e-07;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1596,7 +1580,7 @@ class Mission
 					};
 					id=293;
 					type="B_Soldier_F";
-					atlOffset=3.3378601e-006;
+					atlOffset=3.3378601e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1792,7 +1776,7 @@ class Mission
 			};
 			id=99;
 			type="C_supplyCrate_F";
-			atlOffset=-1.9073486e-006;
+			atlOffset=-1.9073486e-06;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1858,7 +1842,7 @@ class Mission
 			};
 			id=102;
 			type="Land_HBarrier_5_F";
-			atlOffset=9.5367432e-007;
+			atlOffset=9.5367432e-07;
 		};
 		class Item24
 		{
@@ -1891,7 +1875,7 @@ class Mission
 			};
 			id=104;
 			type="Land_HBarrier_5_F";
-			atlOffset=9.5367432e-007;
+			atlOffset=9.5367432e-07;
 		};
 		class Item26
 		{
@@ -1924,7 +1908,7 @@ class Mission
 			};
 			id=106;
 			type="Land_HBarrier_5_F";
-			atlOffset=-9.5367432e-007;
+			atlOffset=-9.5367432e-07;
 		};
 		class Item28
 		{
@@ -2063,7 +2047,7 @@ class Mission
 			type="mil_circle";
 			colorName="ColorCIV";
 			id=128;
-			atlOffset=-3.8146973e-006;
+			atlOffset=-3.8146973e-06;
 		};
 		class Item34
 		{
@@ -2706,7 +2690,7 @@ class Mission
 		class Item44
 		{
 			dataType="Trigger";
-			position[]={10521.127,9.5367432e-005,3773.4351};
+			position[]={10521.127,9.5367432e-05,3773.4351};
 			class Attributes
 			{
 				name="blufor_win_time";
@@ -3244,7 +3228,7 @@ class Mission
 			type="mil_box";
 			colorName="ColorCIV";
 			id=250;
-			atlOffset=-7.1525574e-005;
+			atlOffset=-7.1525574e-05;
 		};
 		class Item61
 		{
@@ -3780,13 +3764,13 @@ class Mission
 			};
 			id=311;
 			type="Box_NATO_Equip_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=2.3841858e-07;
 		};
 		class Item76
 		{
 			dataType="Trigger";
 			position[]={8482.3408,4.4059172,3815.176};
-			angle=1.5031646;
+			angle=1.5031643;
 			class Attributes
 			{
 				name="scout_opfor";
