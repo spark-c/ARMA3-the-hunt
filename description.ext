@@ -1,4 +1,4 @@
-respawnDelay = 10;
+respawnDelay = 5;
 respawnOnStart = 1;
 
 
@@ -171,6 +171,22 @@ class Params
 		title = "Opfor Tickets";
 		texts[] = { "0", "1", "2", "3", "4", "5" };
 		values[] = { 0, 1, 2, 3, 4, 5 };
+		default = 1;
+	};
+	
+	class ScoutCharges
+	{
+		title = "Scouting Charges";
+		texts[] = { "0", "1", "2", "3" };
+		values[] = { 0, 1, 2, 3 };
+		default = 3;
+	};
+	
+	class ScoutChargeRewardAmount
+	{
+		title = "Scouting Charges Reward On Kill";
+		texts[] = { "0", "1", "2", "3" };
+		values[] = { 0, 1, 2, 3 };
 		default = 1;
 	};
 };
