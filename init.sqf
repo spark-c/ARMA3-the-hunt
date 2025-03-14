@@ -7,12 +7,10 @@ if (isServer) then {
 
 	[west, _bluTix] call BIS_fnc_respawnTickets;
 	[east, _redTix] call BIS_fnc_respawnTickets;
+	
+	ScoutCharges = ["ScoutCharges", 3] call BIS_fnc_getParamValue;
+	ScoutChargeReward = ["ScoutChargeRewardAmount", 1] call BIS_fnc_getParamValue;
 };
-
-[west,["BluforRifle",-1,-1]] call BIS_fnc_addRespawnInventory;
-[west,["BluforSMG",-1,-1]] call BIS_fnc_addRespawnInventory;
-[east,["OpforShortRifle",-1,-1]] call BIS_fnc_addRespawnInventory;
-[east,["OpforLongRifle",-1,-1]] call BIS_fnc_addRespawnInventory;
 
 // TIME LIMIT PARAM
 if (isServer) then {
